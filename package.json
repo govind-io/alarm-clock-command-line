@@ -1,0 +1,24 @@
+{
+  "name": "alarm",
+  "version": "1.0.0",
+  "description": "A alarm clock command line app for jalan technologies interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govind-io/alarm-clock-command-line.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govind-io/alarm-clock-command-line/issues"
+  },
+  "homepage": "https://github.com/govind-io/alarm-clock-command-line#readme",
+  "type": "module",
+  "dependencies": {
+    "play-sound": "^1.1.6"
+  }
+}
