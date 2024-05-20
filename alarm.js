@@ -34,7 +34,7 @@ export class Alarm {
     return this.id;
   }
 
-  snoozeInterval = 0.2;
+  snoozeInterval = 5;
 
   scheduledDay;
 
